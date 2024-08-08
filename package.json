@@ -9,6 +9,7 @@
         "v2"
     ],
     "scripts": {
+        "precommit": "node increment-version.js",
         "build": "NODE_OPTIONS='--openssl-legacy-provider' build-storybook -o ./dist/storybook",
         "lint": "eslint --ext .tsx .",
         "test": "jest",
