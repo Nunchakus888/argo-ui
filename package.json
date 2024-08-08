@@ -1,6 +1,6 @@
 {
     "name": "argo-ui",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "main": "./src/index.ts",
     "types": "./src/index.ts",
     "license": "Apache-2.0",
@@ -9,7 +9,7 @@
         "v2"
     ],
     "scripts": {
-        "precommit": "node increment-version.js",
+        "prepare": "husky install",
         "build": "NODE_OPTIONS='--openssl-legacy-provider' build-storybook -o ./dist/storybook",
         "lint": "eslint --ext .tsx .",
         "test": "jest",
@@ -25,6 +25,7 @@
         "core-js": "^3.32.1",
         "foundation-sites": "^6.4.3",
         "history": "^4.10.1",
+        "husky": "^9.1.4",
         "moment": "^2.29.4",
         "prop-types": "^15.8.1",
         "react-autocomplete": "1.8.1",
@@ -71,9 +72,9 @@
         "@types/storybook__addon-actions": "^5.2.1",
         "@types/storybook__addon-links": "^3.3.0",
         "@types/storybook__react": "^3.0.7",
+        "@types/uuid": "^9.0.3",
         "@typescript-eslint/eslint-plugin": "^5.36.1",
         "@typescript-eslint/parser": "^5.36.1",
-        "@types/uuid": "^9.0.3",
         "babel-loader": "^8.2.5",
         "copy-webpack-plugin": "^4.3.1",
         "css-loader": "^3.6.0",
