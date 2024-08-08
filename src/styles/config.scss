@@ -10,24 +10,38 @@ $breakpoints: (
   xxxlarge: 1820px,
 );
 
-$argo-color-gray-1: #F8FBFB;
-$argo-color-gray-2: #EFF3F5;
-$argo-color-gray-3: #DEE6EB;
-$argo-color-gray-4: #CCD6DD;
-$argo-color-gray-5: #8FA4B1;
-$argo-color-gray-6: #6D7F8B;
-$argo-color-gray-7: #495763;
-$argo-color-gray-8: #363C4A;
+// ['#E6F7FF', '#BAE7FF', '#91D5FF', ''#69C0FF', '#40A9FF', '#1890FF', '#096DD9', '#0050B3', '#003A8C', '#002766']
+
+$antd-color-blue-1: #E6F7FF;
+$antd-color-blue-2: #BAE7FF;
+$antd-color-blue-3: #91D5FF;
+$antd-color-blue-4: #69C0FF;
+$antd-color-blue-5: #40A9FF;
+$antd-color-blue-6: #1890FF;
+$antd-color-blue-7: #096DD9;
+$antd-color-blue-8: #0050B3;
+$antd-color-blue-9: #003A8C;
+$antd-color-blue-10: #002766;
+
+
+$argo-color-gray-1: #E6F7FF;
+$argo-color-gray-2: #BAE7FF;
+$argo-color-gray-3: #91D5FF;
+$argo-color-gray-4: #69C0FF;
+$argo-color-gray-5: #40A9FF;
+$argo-color-gray-6: #1890FF;
+$argo-color-gray-7: #096DD9;
+$argo-color-gray-8: #0050B3;
 $argo-color-gray-9: #000000;
 
-$argo-color-teal-1: #F5FBFD;
-$argo-color-teal-2: #DFF6F9;
-$argo-color-teal-3: #BDECF2;
-$argo-color-teal-4: #99E1EA;
-$argo-color-teal-5: #1FBDD0;
-$argo-color-teal-6: #00A2B3;
-$argo-color-teal-7: #006F8A;
-$argo-color-teal-8: #004C67;
+$argo-color-teal-1: #E6F7FF;
+$argo-color-teal-2: #BAE7FF;
+$argo-color-teal-3: #91D5FF;
+$argo-color-teal-4: #69C0FF;
+$argo-color-teal-5: #40A9FF;
+$argo-color-teal-6: #1890FF;
+$argo-color-teal-7: #096DD9;
+$argo-color-teal-8: #0050B3;
 
 $white-color: #ffffff;
 $dark-theme-background-1: #100f0f;
